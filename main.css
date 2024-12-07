@@ -372,12 +372,18 @@ ul {
   justify-content: space-around;
 }
 .contact-section__map {
+  display: none;}
+
+@media screen and (min-width: 1200px) {
+.contact-section__map {
+  display: block;
   flex-shrink: 0;
   border: none;
   border-radius: 16px;
   width: 600px;
   height: 600px;
-}
+}}
+
 .contact-section__title {
   padding-bottom: 16px;
 }
